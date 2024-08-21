@@ -1,0 +1,34 @@
+CONTENEDORES:
+
+- CRUD_Proveedores
+- CRUD_Empleados
+- CRUD_Productos
+  * Bajo_Stock
+- CRUD_Prov_Serv
+- CRUD_Clientes
+- CRUD_Mesas
+- CRUD_Prov_Productos
+
+- CRUD_Caja_Ap
+- CRUD_Caja_Ci
+  * Arqueo_Caja
+  * Ticket_Cierre
+  * Saldo de Caja diario, agrupado por día y turnos separados (mañana y noche), para el último mes
+- CRUD_Pedidos
+  * Cambiar_Estado_Pedidos
+- CRUD_Compras
+  * 
+- CONS_Ing_Egr
+  * Evolución_Ing
+  * Evolución_Egr
+  * Evolución_Ing_Egr
+- CRUD_Pago_Imp
+  * Consulta_Imp_Pagos_Impagos
+  * Monto absoluto mensual pagado para cada impuesto (todo en un mismo gráfico) para el último año
+  * Aumento/Disminución de costos de facturas en los últimos 12 meses para cada servicio por separado (cada valor calculado en % y en base al mes anterior)
+  * Alta_Fact_Impagas
+  * Pagar_Fact_Impagas
+- CRUD_Ventas
+  * Total de ventas realizadas agrupadas por semana para los últimos seis meses
+  * Total de ventas mensuales, agrupadas por mes para el último año
+- CRUD_Autent_Sesiones
